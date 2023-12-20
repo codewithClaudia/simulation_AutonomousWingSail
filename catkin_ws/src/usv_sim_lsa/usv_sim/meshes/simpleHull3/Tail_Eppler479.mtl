@@ -1,0 +1,8 @@
+newmtl Fabric_(Light_Brown)
+Kd 1 1 1
+d 1
+map_Kd CarbonFiber.png
+newmtl Aluminum_-_Satin
+Kd 0.960784 0.960784 0.964706
+d 1
+map_Kd Aluminium.jpg
