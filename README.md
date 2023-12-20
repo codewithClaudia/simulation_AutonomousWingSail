@@ -1,1 +1,5 @@
 # simulation_AutonomousWingSail
+
+This work addresses the design, modelling, and simulation of an autonomous sail yacht equipped with two wing-sails, where the first is a free-rotating headsail and the second an actuated tailsail. The purpose of the sailboat is to act as an ocean probe. The yacht model, designed with Fusion 360, was simulated using the Gazebo integrated simulation environment together with the ROS middle-ware. This involved reusing, modifying and developing dedicated Gazebo plugins.
+
+The created plugins implement the animation of the tail and rudder joints, the onboard apparent wind sensor and the propulsion and heading control of the sailboat via the tail wing-sail and rudder, respectively. Multiple tests were performed to validate the sailboat model, the developed plugins and the propulsion behaviour of the sailboat. This included determining the dynamic characteristics of the sailboat (polar diagram) as well as simulating course sailing, area scanning, and obstacle rounding (with and without swell) missions.
